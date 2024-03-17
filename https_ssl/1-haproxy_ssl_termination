@@ -41,7 +41,7 @@ frontend nanak-tech-frontend
         default_backend nanak-tech-backend
 
 frontend nanak-tech-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/www.Nanak.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.nanak.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend nanak-tech-backend
 
